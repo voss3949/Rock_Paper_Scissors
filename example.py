@@ -5,11 +5,13 @@ while True:
     choices
     computer = random.choice(choices)
     self = input('rock, paper, scissors?  ')
-    self
+    print("rock, paper, scissors... GO!")
+    time.sleep(5)
     computer
+    self
     'Loser' if self in computer[1] else 'Winner' if self not in computer else 'Tie'
     time.sleep(5)
-    if input('Quit? Yes or No.') == 'Yes': break
+    if input('Quit? Yes or No. ') == 'Yes': break
     continue
 
 
