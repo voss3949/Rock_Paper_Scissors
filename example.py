@@ -7,7 +7,7 @@ computer
 self = input('rock, paper, scissors?  ')
 
 
-'Loser' if self in computer[1] else 'Winner' if self not in computer else 'Loser'
+'Loser' if self in computer[1] else 'Winner' if self not in computer else 'Tie'
 
 
 #str('You chose '+self[0])+' '+'Computer chose '+str(computer[0]) if self == computer else "Winner. "+str(self[0])+" beats " + str(computer[1]) if self[1] in computer[0] else 'Loser. ' +str(self[1]+' beats '+computer[0])
