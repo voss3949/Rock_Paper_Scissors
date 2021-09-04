@@ -4,8 +4,8 @@ while True:
     choices=[["rock","scissors"],["paper","rock"],["scissors","paper"]]
     choices
     computer = random.choice(choices)
-    self = input('rock, paper, scissors?  ')
     print("rock, paper, scissors... GO!")
+    self = input('rock, paper, scissors?  ')
     time.sleep(5)
     computer
     self
