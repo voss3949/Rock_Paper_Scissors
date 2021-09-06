@@ -1,6 +1,7 @@
+import random
+import time
+
 while True:
-    import random
-    import time
     choices=[["rock","scissors"],["paper","rock"],["scissors","paper"]]
     choices
     computer = random.choice(choices)
