@@ -9,7 +9,7 @@ while True:
         player = input("rock, paper, scissors... GO!  ")
         break
     time.sleep(3)
-    'Loser! Computer chose ' + computer[0] if player in computer[1] else 'Winner! Computer chose ' + computer[0] if player not in computer else 'Tie! Compupter chose ' + computer[0]
+    'Loser! Computer chose ' + str(computer[0]) if player in computer[1] else 'Winner! Computer chose ' + str(computer[0]) if player not in computer else 'Tie! You and computer chose ' + str(computer[0])
     time.sleep(3)
     if input('Quit? Yes or No. ') == 'Yes': break
     continue
